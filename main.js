@@ -15,12 +15,12 @@ import {
 
 // GANTI DENGAN FIREBASE CONFIG ANDA
 const firebaseConfig = {
-    apiKey: "AIzaSyAMYR89DaWshLi9Q3DzlOfd6-zERrlk-Dg",
-    authDomain: "ic2025-4d32e.firebaseapp.com",
-    projectId: "ic2025-4d32e",
-    storageBucket: "ic2025-4d32e.firebasestorage.app",
-    messagingSenderId: "614606671675",
-    appId: "1:614606671675:web:a92cc69855fb3d7568f11e"
+  apiKey: "AIzaSyAoa6XVwvLudjkyHxzF2Q8Xp61BEaG8_Ho",
+  authDomain: "insancemerlang-e829c.firebaseapp.com",
+  projectId: "insancemerlang-e829c",
+  storageBucket: "insancemerlang-e829c.firebasestorage.app",
+  messagingSenderId: "544747474491",
+  appId: "1:544747474491:web:be2b4a1553734a5c53961e"
 }
 
 const app = initializeApp(firebaseConfig)
