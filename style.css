@@ -1,0 +1,108 @@
+/* Import Font dari Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@700;900&display=swap');
+
+:root {
+    /* Palet Warna Klasik */
+    --kertas-tua: #f4ecd8;
+    --kayu-gelap: #3d2b1f;
+    --emas-redup: #c5a059;
+    --tinta: #2c2c2c;
+    --merah-marun: #800000;
+    --bayangan: rgba(0, 0, 0, 0.2);
+}
+
+body {
+    background-color: var(--kertas-tua);
+    color: var(--tinta);
+    font-family: 'Crimson Pro', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header & Judul */
+header {
+    text-align: center;
+    border-bottom: 3px double var(--kayu-gelap);
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: var(--kayu-gelap);
+    letter-spacing: 1px;
+}
+
+/* Container Utama */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #fffdf7;
+    padding: 40px;
+    box-shadow: 0 10px 30px var(--bayangan);
+    border: 1px solid #dcd3bc;
+}
+
+/* Gaya Kartu Buku */
+.book-card {
+    border: 1px solid #dcd3bc;
+    padding: 15px;
+    margin: 10px 0;
+    background: white;
+    transition: transform 0.3s ease;
+    border-left: 5px solid var(--merah-marun);
+}
+
+.book-card h3, .book-card p {
+    margin: 0;
+    padding: 0;
+}
+
+.book-card:hover {
+    transform: translateX(10px);
+    background-color: #fcfaf0;
+}
+
+/* Tombol Klasik */
+.btn {
+    background-color: var(--kayu-gelap);
+    color: var(--kertas-tua);
+    padding: 10px 20px;
+    border: 1px solid var(--emas-redup);
+    font-family: 'Crimson Pro', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: var(--merah-marun);
+    color: white;
+}
+
+/* Input Form */
+input, select, textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--kayu-gelap);
+    padding: 10px;
+    width: 100%;
+    font-family: inherit;
+    font-size: 1.1rem;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 2px solid var(--emas-redup);
+}
+
+/* Ornamen Tambahan */
+.ornamen {
+    text-align: center;
+    color: var(--emas-redup);
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
