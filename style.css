@@ -1,4 +1,4 @@
-/* Import Font dari Google Fonts */
+ /* Import Font dari Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@700;900&display=swap');
 
 :root {
@@ -106,3 +106,5 @@ input:focus {
     font-size: 1.5rem;
     margin: 20px 0;
 }
+
+ganti warna pink pastel
